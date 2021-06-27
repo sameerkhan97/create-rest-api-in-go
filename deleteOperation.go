@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	// "io/ioutill"
+	"io/ioutill"
 	"log"
 	"net/http"
 
@@ -40,16 +40,16 @@ func returnSingleArticle(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-// func createNewArticle(w http.ResponseWriter, r *http.Request) {
-// 	// get the body of our POST request
-// 	// return the string response containing the request body
-// 	reqBody := ioutill.ReadAll(r.Body)
-// 	fmt.Fprintf(w, "%+v", string(reqBody))
-// 	var article Article
-// 	json.Unmarshal(reqBody, &article)
-// 	Articles = append(Articles, article)
-// 	json.NewEncoder(w).Encode(article)
-// }
+func createNewArticle(w http.ResponseWriter, r *http.Request) {
+	// get the body of our POST request
+ 	// return the string response containing the request body
+ 	reqBody := ioutill.ReadAll(r.Body)
+ 	fmt.Fprintf(w, "%+v", string(reqBody))
+ 	var article Article
+ 	json.Unmarshal(reqBody, &article)
+ 	Articles = append(Articles, article)
+	json.NewEncoder(w).Encode(article)
+}
 
 func delteArticle(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
