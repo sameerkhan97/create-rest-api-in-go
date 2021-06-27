@@ -12,6 +12,7 @@ functions we will be defining so that they make subsequent calls to a database t
 
 ## Topics : 
 * [Creating a demo http server in GO](https://github.com/sameerkhan97/create-rest-api-in-go/blob/master/creatingHttpServer.go)
-* [Simple Read Opertion on simple routes](https://github.com/sameerkhan97/create-rest-api-in-go/blob/master/readOperationWithoutMuxRouter.go)
+* [Simple read pertion on simple routes](https://github.com/sameerkhan97/create-rest-api-in-go/blob/master/readOperationWithoutMuxRouter.go)
 * [Read operation using mux router](https://github.com/sameerkhan97/create-rest-api-in-go/blob/master/readOperationUsingRouter.go)
 * [Create operation](https://github.com/sameerkhan97/create-rest-api-in-go/blob/master/createOperation.go)
+* [Delete operatiion](https://github.com/sameerkhan97/create-rest-api-in-go/blob/master/deleteOperation.go)
