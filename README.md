@@ -20,8 +20,8 @@ functions we will be defining so that they make subsequent calls to a database t
 
 ## instructions to run code:
  -  Clone the repo
-    ``` git clone
-    ```
+      git clone
+  
  - Run the app using
-    ```specific file name to run the project
+     specific file name to run the project
  
