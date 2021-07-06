@@ -19,13 +19,9 @@ functions we will be defining so that they make subsequent calls to a database t
 
 
 ## instructions to run code:
- * prerequisite: - You will need Go version 1.11+ installed on your development machine.
- * STEPS:-
- * 1] Create a folder on your root directory
- * 2] Create a go file in the folder and paste code from repository
- * 3] Open the file in your IDE.
- * 4] In console Terminal run 'go mod init' command and then run 'go mod download' command 
- * 5] Now run the go file using 'go run filename.go' command
- * 6] Allow the admin permission for access.
- * 7] Once this is done head over to your browser and head to 'http://localhost:5060/world' (you can choose your own adress instead of 5060.
+ -  Clone the repo
+    ``` git clone
+    ```
+ - Run the app using
+    ```specific file name to run the project
  
